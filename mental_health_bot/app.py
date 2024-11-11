@@ -24,7 +24,3 @@ def chat():
 @app.route('/conversations', methods=['GET'])
 def get_conversations():
     return jsonify(conversations)
-
-# Note: Remove the following line for deployment on Vercel
-# if __name__ == '__main__':
-#     app.run(debug=True)  # Set debug=True for development
